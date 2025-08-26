@@ -37,6 +37,10 @@ Zero-config NoSQL backend database as a Python package
 * 🌐 REST API & WebSocket support for any language
 * 📦 Self-contained Python package
 * ⚡ Works in Python 3.9+
+* 📊 CRUD operations for collections and documents
+* 🖼️ File storage and retrieval
+* ⚡ Real-time WebSocket updates for WAL events
+* 🔍 Query with filters and limits
 
 ---
 
@@ -50,18 +54,22 @@ Zero-config NoSQL backend database as a Python package
 ### Quick Start
 
 ```bash
+# Install from PyPI
+pip install dbini
+
+# Or install from local repo
 # Clone the repository
-git clone https://github.com/Binidu01/dbini.git
+# git clone https://github.com/Binidu01/dbini.git
 
 # Navigate to project directory
-cd dbini
+# cd dbini
 
 # (Optional) Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# python -m venv venv
+# source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install the package locally
-pip install .
+# pip install .
 
 # Run a test script
 python examples/test_dbini.py
@@ -159,6 +167,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Binidu01** - [GitHub Profile](https://github.com/Binidu01)
 
 Project Link: [https://github.com/Binidu01/dbini](https://github.com/Binidu01/dbini)
+
+PyPI Link: [https://pypi.org/project/dbini](https://pypi.org/project/dbini)
 
 ---
 
